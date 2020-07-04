@@ -1,0 +1,16 @@
+#prerequies we need to install dlib and face recognition 
+pip3 install dlib 
+pip3 install face_recognition
+
+" import libraries 
+import sys
+import cv2 
+import face_recognition
+import pickle
+
+""""
+#####
+#To identify the person in a pickle file,
+# take its name and a unique id as input:
+name=input("enter name")
+ref_id=input("enter id")
